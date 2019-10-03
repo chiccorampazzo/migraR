@@ -66,7 +66,7 @@ genRandomPar <- function(profile = "seven",  ...){
          ,nine= parameters_0[c(1:7,9,13)]
          ,eleven =parameters_0[c(1:10,13)]
          ,thirteen = parameters_0[]
-         ,rampazzo = parameters_0[c(3:6, 11:13)])
+         ,rampazzo = parameters_0[c(2:6, 11:13)])
 }
 
 
