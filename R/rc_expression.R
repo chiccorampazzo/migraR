@@ -12,7 +12,7 @@ rc_expression <-   function(profile = "eleven"){
                               (a3 * exp(-alpha3 * (x-mu3) - exp(-lambda3 * (x - mu3)))) + c1)))
        ,"thirteen" =  return(expression(log((a1 * exp(-alpha1 * x)) + (a2 * exp(-alpha2 * (x-mu2) - exp(-lambda2 * (x - mu2)))) +
                               (a3 * exp(-alpha3 * (x-mu3) - exp(-lambda3 * (x - mu3)))) + (a4 * exp(lambda4 * x)) + c1)))
-       ,"rampazzo" =  return(expression(log((a2 * exp(-alpha2 * (x-mu2) - exp(-lambda2 * (x - mu2)))) +
+       ,"mine" =  return(expression(log((a2 * exp(-alpha2 * (x-mu2) - exp(-lambda2 * (x - mu2)))) +
                                (a4 * exp(lambda4 * x)) + c1)))
       )
  }
