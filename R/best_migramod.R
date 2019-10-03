@@ -73,7 +73,7 @@ best_migramod <- function(dataIn=dataIn, model.rc, profile="eleven",maxite=100, 
                   ,nine = 19
                   ,eleven = 23
                   ,thirteen = 27
-                  ,rampazzo = 15
+                  ,mine = 15
     )
 
   opti <- unlist(valSim[opti.pos])
@@ -120,7 +120,7 @@ best_migramod <- function(dataIn=dataIn, model.rc, profile="eleven",maxite=100, 
     ,nine = list(subzero=1:9,hat=10:18)
     ,eleven = list(subzero=1:11,hat=12:22)
     ,thirteen = list(subzero=1:13,hat=14:26)
-    ,rampazzo= list(subzero=c(3:6,11:13),hat=8:14)
+    ,mine= list(subzero=c(3:6,11:13),hat=8:14)
   )
 
 
