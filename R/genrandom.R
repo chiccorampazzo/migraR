@@ -66,7 +66,7 @@ switch(profile,
        ,nine= parameters_0[c(1:7,9,13)]
        ,eleven =parameters_0[c(1:10,13)]
       , thirteen = parameters_0[],
-      mine=parameters[c(3:7,13:15)])
+      mine=parameters_0[c(3:7,13:15)])
 }
 
 
