@@ -73,6 +73,7 @@ best_migramod <- function(dataIn=dataIn, model.rc, profile="eleven",maxite=100, 
                   ,nine = 19
                   ,eleven = 23
                   ,thirteen = 27
+                  ,mine = 27
     )
 
   opti <- unlist(valSim[opti.pos])
